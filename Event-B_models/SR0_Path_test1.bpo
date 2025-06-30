@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="4">
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="4">
+        <org.eventb.core.poIdentifier name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        <org.eventb.core.poIdentifier name="ROUTE" org.eventb.core.type="ℙ(ROUTE)"/>
+        <org.eventb.core.poIdentifier name="Route2InitPath" org.eventb.core.type="ℙ(ROUTE×PATH)"/>
+        <org.eventb.core.poIdentifier name="InitPath" org.eventb.core.type="ℙ(PATH)"/>
+        <org.eventb.core.poIdentifier name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        <org.eventb.core.poIdentifier name="NullPath" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="PathSub" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        <org.eventb.core.poPredicate name="Route2InitPati" org.eventb.core.predicate="PathConflict∈PATH ↔ PATH" org.eventb.core.source="/SafetyRail(Block2OccRoute)/SR0_Path.buc|org.eventb.core.contextFile#SR0_Path|org.eventb.core.axiom#)"/>
+        <org.eventb.core.poPredicate name="Route2InitPatj" org.eventb.core.predicate="PathConflict=PathConflict∼" org.eventb.core.source="/SafetyRail(Block2OccRoute)/SR0_Path.buc|org.eventb.core.contextFile#SR0_Path|org.eventb.core.axiom#@"/>
+        <org.eventb.core.poPredicate name="Route2InitPatk" org.eventb.core.predicate="finite(PATH)" org.eventb.core.source="/SafetyRail(Block2OccRoute)/SR0_Path.buc|org.eventb.core.contextFile#SR0_Path|org.eventb.core.axiom#7"/>
+        <org.eventb.core.poPredicate name="Route2InitPatl" org.eventb.core.predicate="InitPath⊆PATH" org.eventb.core.source="/SafetyRail(Block2OccRoute)/SR0_Path.buc|org.eventb.core.contextFile#SR0_Path|org.eventb.core.axiom#,"/>
+        <org.eventb.core.poPredicate name="Route2InitPatm" org.eventb.core.predicate="Route2InitPath∈ROUTE → InitPath" org.eventb.core.source="/SafetyRail(Block2OccRoute)/SR0_Path.buc|org.eventb.core.contextFile#SR0_Path|org.eventb.core.axiom#\/"/>
+        <org.eventb.core.poPredicate name="Route2InitPatn" org.eventb.core.predicate="PathSub∈PATH ⇸ PATH" org.eventb.core.source="/SafetyRail(Block2OccRoute)/SR0_Path.buc|org.eventb.core.contextFile#SR0_Path|org.eventb.core.axiom#1"/>
+        <org.eventb.core.poPredicate name="Route2InitPato" org.eventb.core.predicate="∀p⦂PATH·p∈PATH⇒finite(PathSub[{p}])" org.eventb.core.source="/SafetyRail(Block2OccRoute)/SR0_Path.buc|org.eventb.core.contextFile#SR0_Path|org.eventb.core.axiom#D"/>
+        <org.eventb.core.poPredicate name="Route2InitPatp" org.eventb.core.predicate="NullPath∈PATH" org.eventb.core.source="/SafetyRail(Block2OccRoute)/SR0_Path.buc|org.eventb.core.contextFile#SR0_Path|org.eventb.core.axiom#5"/>
+        <org.eventb.core.poPredicate name="Route2InitPatq" org.eventb.core.predicate="∀p⦂PATH·p∈PATH⇒NullPath∉PathConflict[{p}]" org.eventb.core.source="/SafetyRail(Block2OccRoute)/SR0_Path.buc|org.eventb.core.contextFile#SR0_Path|org.eventb.core.axiom#8"/>
+        <org.eventb.core.poPredicate name="Route2InitPatr" org.eventb.core.predicate="∀p⦂PATH,p1⦂PATH·p∈PATH⇒(∀p2⦂PATH·p2∈PathSub[{p1}]∧p∈PathConflict[{p2}]⇒p∈PathConflict[{p1}])" org.eventb.core.source="/SafetyRail(Block2OccRoute)/SR0_Path.buc|org.eventb.core.contextFile#SR0_Path|org.eventb.core.axiom#="/>
+        <org.eventb.core.poIdentifier name="R1" org.eventb.core.type="ROUTE"/>
+        <org.eventb.core.poIdentifier name="R2" org.eventb.core.type="ROUTE"/>
+        <org.eventb.core.poIdentifier name="R3" org.eventb.core.type="ROUTE"/>
+        <org.eventb.core.poIdentifier name="R4" org.eventb.core.type="ROUTE"/>
+        <org.eventb.core.poIdentifier name="P12" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P11" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P14" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P13" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P15" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P21" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P23" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P22" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P25" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P24" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P27" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P26" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P29" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P28" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P32" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P31" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P34" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P33" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P36" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P35" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P38" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P37" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P39" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P41" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P43" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P42" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P45" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P44" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P47" org.eventb.core.type="PATH"/>
+        <org.eventb.core.poIdentifier name="P46" org.eventb.core.type="PATH"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/SafetyRail(Block2OccRoute)/SR0_Path_test1.bpo|org.eventb.core.poFile#SR0_Path_test1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="4">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="partition(ROUTE,{R1},{R2},{R3},{R4})" org.eventb.core.source="/SafetyRail(Block2OccRoute)/SR0_Path_test1.buc|org.eventb.core.contextFile#SR0_Path_test1|org.eventb.core.axiom#K"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="partition(PATH,{P11},{P12},{P13},{P14},{P15},{P21},{P22},{P23},{P24},{P25},{P26},{P27},{P28},{P29},{P31},{P32},{P33},{P34},{P35},{P36},{P37},{P38},{P39},{P41},{P42},{P43},{P44},{P45},{P46},{P47},{NullPath})" org.eventb.core.source="/SafetyRail(Block2OccRoute)/SR0_Path_test1.buc|org.eventb.core.contextFile#SR0_Path_test1|org.eventb.core.axiom#L"/>
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="PathConflict={P11 ↦ P11,P12 ↦ P12,P13 ↦ P13,P14 ↦ P14,P15 ↦ P15,P21 ↦ P21,P22 ↦ P22,P23 ↦ P23,P24 ↦ P24,P25 ↦ P25,P26 ↦ P26,P27 ↦ P27,P28 ↦ P28,P29 ↦ P29,P31 ↦ P31,P32 ↦ P32,P33 ↦ P33,P34 ↦ P34,P35 ↦ P35,P36 ↦ P36,P37 ↦ P37,P38 ↦ P38,P39 ↦ P39,P41 ↦ P41,P42 ↦ P42,P43 ↦ P43,P44 ↦ P44,P45 ↦ P45,P46 ↦ P46,P47 ↦ P47,P11 ↦ P25,P11 ↦ P26,P11 ↦ P27,P11 ↦ P28,P11 ↦ P29,P11 ↦ P12,P11 ↦ P13,P13 ↦ P11,P25 ↦ P11,P26 ↦ P11,P27 ↦ P11,P28 ↦ P11,P29 ↦ P11,P12 ↦ P11,P12 ↦ P24,P12 ↦ P25,P12 ↦ P26,P12 ↦ P27,P12 ↦ P28,P12 ↦ P29,P12 ↦ P13,P12 ↦ P15,P13 ↦ P12,P15 ↦ P12,P24 ↦ P12,P25 ↦ P12,P26 ↦ P12,P27 ↦ P12,P28 ↦ P12,P29 ↦ P12,P13 ↦ P24,P13 ↦ P25,P13 ↦ P26,P13 ↦ P27,P13 ↦ P28,P13 ↦ P29,P13 ↦ P14,P13 ↦ P15,P15 ↦ P13,P14 ↦ P13,P24 ↦ P13,P25 ↦ P13,P26 ↦ P13,P27 ↦ P13,P28 ↦ P13,P29 ↦ P13,P14 ↦ P15,P15 ↦ P14,P21 ↦ P35,P21 ↦ P36,P21 ↦ P37,P21 ↦ P38,P21 ↦ P39,P21 ↦ P22,P21 ↦ P23,P21 ↦ P24,P21 ↦ P25,P25 ↦ P21,P24 ↦ P21,P23 ↦ P21,P22 ↦ P21,P39 ↦ P21,P38 ↦ P21,P37 ↦ P21,P36 ↦ P21,P35 ↦ P21,P22 ↦ P34,P22 ↦ P35,P22 ↦ P36,P22 ↦ P37,P22 ↦ P38,P22 ↦ P39,P22 ↦ P23,P22 ↦ P24,P22 ↦ P25,P22 ↦ P29,P29 ↦ P22,P25 ↦ P22,P24 ↦ P22,P23 ↦ P22,P39 ↦ P22,P38 ↦ P22,P37 ↦ P22,P36 ↦ P22,P35 ↦ P22,P34 ↦ P22,P23 ↦ P33,P23 ↦ P34,P23 ↦ P35,P23 ↦ P36,P23 ↦ P37,P23 ↦ P38,P23 ↦ P39,P23 ↦ P24,P23 ↦ P25,P23 ↦ P29,P23 ↦ P28,P39 ↦ P23,P38 ↦ P23,P37 ↦ P23,P36 ↦ P23,P35 ↦ P23,P34 ↦ P23,P33 ↦ P23,P29 ↦ P23,P25 ↦ P23,P24 ↦ P23,P28 ↦ P23,P24 ↦ P33,P24 ↦ P34,P24 ↦ P35,P24 ↦ P36,P24 ↦ P37,P24 ↦ P38,P24 ↦ P39,P24 ↦ P27,P24 ↦ P25,P24 ↦ P29,P24 ↦ P28,P39 ↦ P24,P38 ↦ P24,P37 ↦ P24,P36 ↦ P24,P35 ↦ P24,P34 ↦ P24,P33 ↦ P24,P29 ↦ P24,P25 ↦ P24,P27 ↦ P24,P28 ↦ P24,P25 ↦ P33,P25 ↦ P34,P25 ↦ P35,P25 ↦ P36,P25 ↦ P37,P25 ↦ P38,P25 ↦ P39,P25 ↦ P26,P25 ↦ P27,P25 ↦ P28,P25 ↦ P29,P39 ↦ P25,P38 ↦ P25,P37 ↦ P25,P36 ↦ P25,P35 ↦ P25,P34 ↦ P25,P33 ↦ P25,P26 ↦ P25,P27 ↦ P25,P28 ↦ P25,P29 ↦ P25,P26 ↦ P27,P26 ↦ P28,P26 ↦ P29,P29 ↦ P26,P28 ↦ P26,P27 ↦ P26,P27 ↦ P28,P27 ↦ P29,P29 ↦ P27,P28 ↦ P27,P28 ↦ P29,P29 ↦ P28,P28 ↦ P33,P28 ↦ P34,P28 ↦ P35,P28 ↦ P38,P28 ↦ P39,P39 ↦ P28,P38 ↦ P28,P35 ↦ P28,P34 ↦ P28,P33 ↦ P28,P29 ↦ P33,P29 ↦ P34,P29 ↦ P35,P29 ↦ P37,P29 ↦ P38,P29 ↦ P39,P39 ↦ P29,P38 ↦ P29,P37 ↦ P29,P35 ↦ P29,P34 ↦ P29,P33 ↦ P29,P31 ↦ P44,P31 ↦ P45,P31 ↦ P46,P31 ↦ P47,P31 ↦ P32,P31 ↦ P33,P31 ↦ P34,P31 ↦ P35,P35 ↦ P31,P34 ↦ P31,P33 ↦ P31,P32 ↦ P31,P47 ↦ P31,P46 ↦ P31,P45 ↦ P31,P44 ↦ P31,P32 ↦ P43,P32 ↦ P44,P32 ↦ P45,P32 ↦ P46,P32 ↦ P47,P32 ↦ P33,P32 ↦ P34,P32 ↦ P35,P32 ↦ P39,P39 ↦ P32,P35 ↦ P32,P34 ↦ P32,P33 ↦ P32,P47 ↦ P32,P46 ↦ P32,P45 ↦ P32,P44 ↦ P32,P43 ↦ P32,P33 ↦ P43,P33 ↦ P44,P33 ↦ P45,P33 ↦ P46,P33 ↦ P47,P33 ↦ P34,P33 ↦ P35,P33 ↦ P38,P33 ↦ P39,P39 ↦ P33,P38 ↦ P33,P35 ↦ P33,P34 ↦ P33,P47 ↦ P33,P46 ↦ P33,P45 ↦ P33,P44 ↦ P33,P43 ↦ P33,P34 ↦ P43,P34 ↦ P44,P34 ↦ P45,P34 ↦ P46,P34 ↦ P47,P34 ↦ P35,P34 ↦ P37,P34 ↦ P38,P34 ↦ P39,P39 ↦ P34,P38 ↦ P34,P37 ↦ P34,P35 ↦ P34,P47 ↦ P34,P46 ↦ P34,P45 ↦ P34,P44 ↦ P34,P43 ↦ P34,P35 ↦ P43,P35 ↦ P44,P35 ↦ P45,P35 ↦ P46,P35 ↦ P47,P35 ↦ P36,P35 ↦ P37,P35 ↦ P38,P35 ↦ P39,P39 ↦ P35,P38 ↦ P35,P37 ↦ P35,P36 ↦ P35,P47 ↦ P35,P46 ↦ P35,P45 ↦ P35,P44 ↦ P35,P43 ↦ P35,P36 ↦ P37,P36 ↦ P38,P36 ↦ P39,P39 ↦ P36,P38 ↦ P36,P37 ↦ P36,P37 ↦ P38,P37 ↦ P39,P39 ↦ P37,P38 ↦ P37,P38 ↦ P39,P39 ↦ P38,P41 ↦ P42,P41 ↦ P43,P41 ↦ P44,P44 ↦ P41,P43 ↦ P41,P42 ↦ P41,P42 ↦ P43,P42 ↦ P44,P42 ↦ P47,P47 ↦ P42,P44 ↦ P42,P43 ↦ P42,P43 ↦ P44,P43 ↦ P46,P43 ↦ P47,P47 ↦ P43,P46 ↦ P43,P44 ↦ P43,P44 ↦ P45,P44 ↦ P46,P44 ↦ P47,P45 ↦ P44,P46 ↦ P44,P47 ↦ P44,P45 ↦ P46,P45 ↦ P47,P47 ↦ P45,P46 ↦ P45,P46 ↦ P47,P47 ↦ P46}" org.eventb.core.source="/SafetyRail(Block2OccRoute)/SR0_Path_test1.buc|org.eventb.core.contextFile#SR0_Path_test1|org.eventb.core.axiom#Q"/>
+        <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="InitPath={P13,P25,P35,P44}" org.eventb.core.source="/SafetyRail(Block2OccRoute)/SR0_Path_test1.buc|org.eventb.core.contextFile#SR0_Path_test1|org.eventb.core.axiom#N"/>
+        <org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="Route2InitPath={R1 ↦ P13,R2 ↦ P25,R3 ↦ P35,R4 ↦ P44}" org.eventb.core.source="/SafetyRail(Block2OccRoute)/SR0_Path_test1.buc|org.eventb.core.contextFile#SR0_Path_test1|org.eventb.core.axiom#O"/>
+        <org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="PathSub={P13 ↦ P12,P12 ↦ P11,P11 ↦ NullPath,P25 ↦ P24,P24 ↦ P23,P23 ↦ P22,P22 ↦ P21,P21 ↦ NullPath,P35 ↦ P34,P34 ↦ P33,P33 ↦ P32,P32 ↦ P31,P31 ↦ NullPath,P44 ↦ P43,P43 ↦ P42,P42 ↦ P41,P41 ↦ NullPath}" org.eventb.core.source="/SafetyRail(Block2OccRoute)/SR0_Path_test1.buc|org.eventb.core.contextFile#SR0_Path_test1|org.eventb.core.axiom#P"/>
+    </org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

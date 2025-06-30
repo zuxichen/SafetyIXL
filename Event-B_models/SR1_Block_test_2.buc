@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase" org.eventb.core.generated="false" version="3">
+    <org.eventb.core.extendsContext name="'" org.eventb.core.target="SR1_Block"/>
+    <org.eventb.core.extendsContext name="2" org.eventb.core.target="SR0_Path_test_2"/>
+    <org.eventb.core.constant de.prob.symbolic.symbolicAttribute="false" name="(" org.eventb.core.generated="false" org.eventb.core.identifier="A"/>
+    <org.eventb.core.constant de.prob.symbolic.symbolicAttribute="false" name=")" org.eventb.core.generated="false" org.eventb.core.identifier="B"/>
+    <org.eventb.core.constant de.prob.symbolic.symbolicAttribute="false" name="*" org.eventb.core.generated="false" org.eventb.core.identifier="C"/>
+    <org.eventb.core.axiom name="+" org.eventb.core.generated="false" org.eventb.core.label="axm1" org.eventb.core.predicate="partition(BLOCK,{A}, {B},{C})"/>
+    <org.eventb.core.axiom name="," org.eventb.core.generated="false" org.eventb.core.label="axm2" org.eventb.core.predicate="OneBlockPath = {P11,P14}"/>
+    <org.eventb.core.axiom name="-" org.eventb.core.generated="false" org.eventb.core.label="axm3" org.eventb.core.predicate="Path2Block = {P11↦{C},P12↦{C,B},P13↦{A,B,C},P14↦{A},P15↦{A,B},&#13;&#10;NullPath↦∅}"/>
+    <org.eventb.core.axiom name="." org.eventb.core.generated="false" org.eventb.core.label="axm4" org.eventb.core.predicate="Head = {P13↦A,P12↦B,P11↦C,P14↦A,P15↦A}"/>
+    <org.eventb.core.axiom name="/" org.eventb.core.generated="false" org.eventb.core.label="axm5" org.eventb.core.predicate="Rear = {P13↦C,P12↦C,P11↦C,P14↦A,P15↦B}"/>
+    <org.eventb.core.axiom name="0" org.eventb.core.generated="false" org.eventb.core.label="axm6" org.eventb.core.predicate="Next = {P13 ↦ {A↦B,B↦C},P12↦{B↦C},&#13;&#10;P15↦{A↦B}}"/>
+    <org.eventb.core.axiom name="1" org.eventb.core.generated="false" org.eventb.core.label="axm7" org.eventb.core.predicate="SubPath = {P13↦P15,P15↦P14,P14↦NullPath}"/>
+</org.eventb.core.contextFile>

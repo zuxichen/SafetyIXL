@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.prFile version="1">
+    <org.eventb.core.prProof name="Train_Enter/grd4/GRD" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="ROUTE">
+        <org.eventb.core.lang name="L"/>
+        <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ROUTE,{R1},{R2}))" org.eventb.core.prHyps="">
+            <org.eventb.core.prAnte name="'">
+                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2,p3"/>
+                <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p2,p3"/>
+                <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(PATH,{P11},{P12},{P13},{P21},{P22},{P23},{P14},{P15},{P24},{P25},{NullPath}))" org.eventb.core.prHyps="">
+                    <org.eventb.core.prAnte name="'">
+                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p27,p28,p29,p30,p31,p32,p33,p34,p35,p36,p37,p38,p39,p40,p41,p42,p43,p44,p45,p46,p47,p48,p49,p50,p51,p52,p53,p54,p55,p56,p57,p58,p59,p60"/>
+                        <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p27,p28,p29,p30,p31,p32,p33,p34,p35,p36,p37,p38,p39,p40,p41,p42,p43,p44,p45,p46,p47,p48,p49,p50,p51,p52,p53,p54,p55,p56,p57,p58,p59,p60"/>
+                        <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+                            <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p71">
+                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p61" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p62"/>
+                                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p63" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p64"/>
+                                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p65" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p66"/>
+                                <org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p67" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p68"/>
+                                <org.eventb.core.prHypAction name="REWRITE4" org.eventb.core.prHidden="p69" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p70"/>
+                                <org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+                                    <org.eventb.core.prAnte name="'">
+                                        <org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p72"/>
+                                        <org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p73"/>
+                                        <org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p74"/>
+                                        <org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p75"/>
+                                        <org.eventb.core.prHypAction name="REWRITE4" org.eventb.core.prHidden="p76" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p77"/>
+                                        <org.eventb.core.prHypAction name="REWRITE5" org.eventb.core.prHidden="p78" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p79"/>
+                                        <org.eventb.core.prHypAction name="HIDE6" org.eventb.core.prHyps="p80"/>
+                                        <org.eventb.core.prHypAction name="HIDE7" org.eventb.core.prHyps="p81"/>
+                                        <org.eventb.core.prHypAction name="HIDE8" org.eventb.core.prHyps="p82"/>
+                                        <org.eventb.core.prHypAction name="REWRITE9" org.eventb.core.prHidden="p62" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p83"/>
+                                        <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+                                            <org.eventb.core.prAnte name="'">
+                                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p77" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p84"/>
+                                                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p79" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p85"/>
+                                                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p83" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p86"/>
+                                            </org.eventb.core.prAnte>
+                                        </org.eventb.core.prRule>
+                                    </org.eventb.core.prAnte>
+                                </org.eventb.core.prRule>
+                            </org.eventb.core.prAnte>
+                        </org.eventb.core.prRule>
+                    </org.eventb.core.prAnte>
+                    <org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+                </org.eventb.core.prRule>
+            </org.eventb.core.prAnte>
+            <org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+        </org.eventb.core.prRule>
+        <org.eventb.core.prIdent name="Route_Cel" org.eventb.core.type="ℙ(ROUTE)"/>
+        <org.eventb.core.prIdent name="r" org.eventb.core.type="ROUTE"/>
+        <org.eventb.core.prPred name="p18" org.eventb.core.predicate="¬P12=P22">
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p62" org.eventb.core.predicate="∀p⦂PATH·p∈PATH⇒¬NullPath∈PathConflict[{p}]">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p59" org.eventb.core.predicate="¬P24=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p71" org.eventb.core.predicate="¬r∈Route_Cel"/>
+        <org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬P11=P13">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p33" org.eventb.core.predicate="¬P21=P22">
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p86" org.eventb.core.predicate="∀p⦂PATH·¬NullPath∈PathConflict[{p}]">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p83" org.eventb.core.predicate="∀p⦂PATH·⊤⇒¬NullPath∈PathConflict[{p}]">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬P11=P21">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p84" org.eventb.core.predicate="∀p⦂PATH,p1⦂PATH,p2⦂PATH·p2∈PathSub[{p1}]∧p∈PathConflict[{p2}]⇒p∈PathConflict[{p1}]">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+            <org.eventb.core.prIdent name="PathSub" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p25" org.eventb.core.predicate="¬P13=P21">
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p49" org.eventb.core.predicate="¬P23=P25">
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p23" org.eventb.core.predicate="¬P12=P25">
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p38" org.eventb.core.predicate="¬P21=P25">
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p53" org.eventb.core.predicate="¬P14=P25">
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬P11=P24">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p42" org.eventb.core.predicate="¬P22=P15">
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p55" org.eventb.core.predicate="¬P15=P24">
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p68" org.eventb.core.predicate="∀r⦂ROUTE·r∈Route_Occ⇒r∈dom(Route2Path)">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="Route2Path" org.eventb.core.type="ℙ(ROUTE×PATH)"/>
+            <org.eventb.core.prIdent name="Route_Occ" org.eventb.core.type="ℙ(ROUTE)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p48" org.eventb.core.predicate="¬P23=P24">
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p21" org.eventb.core.predicate="¬P12=P15">
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p76" org.eventb.core.predicate="∀p⦂PATH,p1⦂PATH·p∈PATH⇒(∀p2⦂PATH·p2∈PathSub[{p1}]∧p∈PathConflict[{p2}]⇒p∈PathConflict[{p1}])">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+            <org.eventb.core.prIdent name="PathSub" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p78" org.eventb.core.predicate="∀p⦂PATH·p∈PATH⇒finite(PathSub[{p}])">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathSub" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p72" org.eventb.core.predicate="PathConflict∈PATH ↔ PATH">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p30" org.eventb.core.predicate="¬P13=P24">
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p37" org.eventb.core.predicate="¬P21=P24">
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p51" org.eventb.core.predicate="¬P14=P15">
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p64" org.eventb.core.predicate="PathConflict={P12 ↦ P22,P22 ↦ P12,P12 ↦ P23,P23 ↦ P12,P22 ↦ P13,P13 ↦ P22,P21 ↦ P13,P13 ↦ P21,P23 ↦ P13,P13 ↦ P23,P11 ↦ P13,P13 ↦ P11,P12 ↦ P11,P11 ↦ P12,P12 ↦ P13,P13 ↦ P12,P21 ↦ P22,P21 ↦ P23,P22 ↦ P23,P22 ↦ P21,P23 ↦ P21,P23 ↦ P22,P14 ↦ P21,P14 ↦ P22,P14 ↦ P23,P14 ↦ P15,P14 ↦ P13,P14 ↦ P14,P21 ↦ P14,P22 ↦ P14,P23 ↦ P14,P15 ↦ P14,P13 ↦ P14,P15 ↦ P13,P15 ↦ P12,P15 ↦ P25,P15 ↦ P23,P15 ↦ P22,P15 ↦ P21,P15 ↦ P15,P13 ↦ P15,P12 ↦ P15,P25 ↦ P15,P23 ↦ P15,P22 ↦ P15,P21 ↦ P15,P24 ↦ P25,P24 ↦ P23,P24 ↦ P24,P23 ↦ P24,P25 ↦ P24,P25 ↦ P22,P25 ↦ P23,P25 ↦ P25,P23 ↦ P25,P22 ↦ P25,P25 ↦ P13,P13 ↦ P25,P25 ↦ P12,P12 ↦ P25,P11 ↦ P11,P12 ↦ P12,P13 ↦ P13,P21 ↦ P21,P22 ↦ P22,P23 ↦ P23}">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p65" org.eventb.core.predicate="∀r1⦂ROUTE,r2⦂ROUTE·r1≠r2∧r1∈dom(Route2Path)∧r2∈dom(Route2Path)⇒Route2Path(r2)∉PathConflict∼[Route2Path[{r1}]]">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+            <org.eventb.core.prIdent name="Route2Path" org.eventb.core.type="ℙ(ROUTE×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p19" org.eventb.core.predicate="¬P12=P23">
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p46" org.eventb.core.predicate="¬P23=P14">
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p67" org.eventb.core.predicate="∀r⦂ROUTE·r∈Route_Occ⇒Route2Path[{r}]≠(∅ ⦂ ℙ(PATH))">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="Route2Path" org.eventb.core.type="ℙ(ROUTE×PATH)"/>
+            <org.eventb.core.prIdent name="Route_Occ" org.eventb.core.type="ℙ(ROUTE)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬P11=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬P11=P14">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p40" org.eventb.core.predicate="¬P22=P23">
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p32" org.eventb.core.predicate="¬P13=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p74" org.eventb.core.predicate="PathSub∈PATH ↔ PATH">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathSub" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p28" org.eventb.core.predicate="¬P13=P14">
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p50" org.eventb.core.predicate="¬P23=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p57" org.eventb.core.predicate="¬P15=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p35" org.eventb.core.predicate="¬P21=P14">
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p2" org.eventb.core.predicate="ROUTE={R1,R2}">
+            <org.eventb.core.prIdent name="R1" org.eventb.core.type="ROUTE"/>
+            <org.eventb.core.prIdent name="R2" org.eventb.core.type="ROUTE"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p26" org.eventb.core.predicate="¬P13=P22">
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p60" org.eventb.core.predicate="¬P25=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p80" org.eventb.core.predicate="Route_Req⊆ROUTE">
+            <org.eventb.core.prIdent name="Route_Req" org.eventb.core.type="ℙ(ROUTE)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p39" org.eventb.core.predicate="¬P21=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p16" org.eventb.core.predicate="¬P12=P13">
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p82" org.eventb.core.predicate="Route_Occ⊆ROUTE">
+            <org.eventb.core.prIdent name="Route_Occ" org.eventb.core.type="ℙ(ROUTE)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p9" org.eventb.core.predicate="¬P11=P22">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p66" org.eventb.core.predicate="∀r1⦂ROUTE,r2⦂ROUTE·¬r1=r2∧r1∈dom(Route2Path)∧r2∈dom(Route2Path)⇒¬Route2Path(r2)∈PathConflict∼[Route2Path[{r1}]]">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+            <org.eventb.core.prIdent name="Route2Path" org.eventb.core.type="ℙ(ROUTE×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p73" org.eventb.core.predicate="InitPath⊆PATH">
+            <org.eventb.core.prIdent name="InitPath" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p5" org.eventb.core.predicate="PATH={P11,P12,P13,P21,P22,P23,P14,P15,P24,P25,NullPath}">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p17" org.eventb.core.predicate="¬P12=P21">
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p56" org.eventb.core.predicate="¬P15=P25">
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬P11=P25">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p6" org.eventb.core.predicate="¬P11=P12">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="r∉Route_Cel"/>
+        <org.eventb.core.prPred name="p58" org.eventb.core.predicate="¬P24=P25">
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p44" org.eventb.core.predicate="¬P22=P25">
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p31" org.eventb.core.predicate="¬P13=P25">
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p79" org.eventb.core.predicate="∀p⦂PATH·⊤⇒finite(PathSub[{p}])">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathSub" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p22" org.eventb.core.predicate="¬P12=P24">
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p47" org.eventb.core.predicate="¬P23=P15">
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p81" org.eventb.core.predicate="Route_Cel⊆ROUTE"/>
+        <org.eventb.core.prPred name="p85" org.eventb.core.predicate="∀p⦂PATH·finite(PathSub[{p}])">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathSub" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p70" org.eventb.core.predicate="¬r∈Route_Occ">
+            <org.eventb.core.prIdent name="Route_Occ" org.eventb.core.type="ℙ(ROUTE)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬P11=P15">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p43" org.eventb.core.predicate="¬P22=P24">
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬R1=R2">
+            <org.eventb.core.prIdent name="R1" org.eventb.core.type="ROUTE"/>
+            <org.eventb.core.prIdent name="R2" org.eventb.core.type="ROUTE"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p69" org.eventb.core.predicate="r∉Route_Occ">
+            <org.eventb.core.prIdent name="Route_Occ" org.eventb.core.type="ℙ(ROUTE)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p29" org.eventb.core.predicate="¬P13=P15">
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p36" org.eventb.core.predicate="¬P21=P15">
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p52" org.eventb.core.predicate="¬P14=P24">
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p77" org.eventb.core.predicate="∀p⦂PATH,p1⦂PATH·⊤⇒(∀p2⦂PATH·p2∈PathSub[{p1}]∧p∈PathConflict[{p2}]⇒p∈PathConflict[{p1}])">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+            <org.eventb.core.prIdent name="PathSub" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p27" org.eventb.core.predicate="¬P13=P23">
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p75" org.eventb.core.predicate="NullPath∈PATH">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p4" org.eventb.core.predicate="partition(PATH,{P11},{P12},{P13},{P21},{P22},{P23},{P14},{P15},{P24},{P25},{NullPath})">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p61" org.eventb.core.predicate="∀p⦂PATH·p∈PATH⇒NullPath∉PathConflict[{p}]">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬P11=P23">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p24" org.eventb.core.predicate="¬P12=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(ROUTE,{R1},{R2})">
+            <org.eventb.core.prIdent name="R1" org.eventb.core.type="ROUTE"/>
+            <org.eventb.core.prIdent name="R2" org.eventb.core.type="ROUTE"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p54" org.eventb.core.predicate="¬P14=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p20" org.eventb.core.predicate="¬P12=P14">
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p63" org.eventb.core.predicate="PathConflict={P12 ↦ P22,P22 ↦ P12,P12 ↦ P23,P23 ↦ P12,P22 ↦ P13,P13 ↦ P22,P21 ↦ P13,P13 ↦ P21,P23 ↦ P13,P13 ↦ P23,P11 ↦ P13,P13 ↦ P11,P12 ↦ P11,P11 ↦ P12,P12 ↦ P13,P13 ↦ P12,P21 ↦ P22,P21 ↦ P23,P22 ↦ P23,P22 ↦ P21,P23 ↦ P21,P23 ↦ P22,P14 ↦ P21,P14 ↦ P22,P14 ↦ P23,P14 ↦ P15,P14 ↦ P13,P14 ↦ P14,P21 ↦ P14,P22 ↦ P14,P23 ↦ P14,P15 ↦ P14,P13 ↦ P14,P15 ↦ P13,P15 ↦ P12,P15 ↦ P25,P15 ↦ P23,P15 ↦ P22,P15 ↦ P21,P15 ↦ P15,P13 ↦ P15,P12 ↦ P15,P25 ↦ P15,P23 ↦ P15,P22 ↦ P15,P21 ↦ P15,P24 ↦ P25,P24 ↦ P23,P24 ↦ P24,P23 ↦ P24,P25 ↦ P24,P25 ↦ P22,P25 ↦ P23,P25 ↦ P25,P23 ↦ P25,P22 ↦ P25,P25 ↦ P13,P13 ↦ P25,P25 ↦ P12,P12 ↦ P25,P11 ↦ P11,P12 ↦ P12,P13 ↦ P13,P14 ↦ P14,P15 ↦ P15,P21 ↦ P21,P22 ↦ P22,P23 ↦ P23,P24 ↦ P24,P25 ↦ P25}">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p41" org.eventb.core.predicate="¬P22=P14">
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p45" org.eventb.core.predicate="¬P22=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p34" org.eventb.core.predicate="¬P21=P23">
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+    </org.eventb.core.prProof>
+    <org.eventb.core.prProof name="ATS_Request/grd2/GRD" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="ROUTE">
+        <org.eventb.core.lang name="L"/>
+        <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ROUTE,{R1},{R2}))" org.eventb.core.prHyps="">
+            <org.eventb.core.prAnte name="'">
+                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2,p3"/>
+                <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p2,p3"/>
+                <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(PATH,{P11},{P12},{P13},{P21},{P22},{P23},{P14},{P15},{P24},{P25},{NullPath}))" org.eventb.core.prHyps="">
+                    <org.eventb.core.prAnte name="'">
+                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p27,p28,p29,p30,p31,p32,p33,p34,p35,p36,p37,p38,p39,p40,p41,p42,p43,p44,p45,p46,p47,p48,p49,p50,p51,p52,p53,p54,p55,p56,p57,p58,p59,p60"/>
+                        <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p27,p28,p29,p30,p31,p32,p33,p34,p35,p36,p37,p38,p39,p40,p41,p42,p43,p44,p45,p46,p47,p48,p49,p50,p51,p52,p53,p54,p55,p56,p57,p58,p59,p60"/>
+                        <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+                            <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p71">
+                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p61" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p62"/>
+                                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p63" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p64"/>
+                                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p65" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p66"/>
+                                <org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p67" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p68"/>
+                                <org.eventb.core.prHypAction name="REWRITE4" org.eventb.core.prHidden="p69" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p70"/>
+                                <org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+                                    <org.eventb.core.prAnte name="'">
+                                        <org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p72"/>
+                                        <org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p73"/>
+                                        <org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p74"/>
+                                        <org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p75"/>
+                                        <org.eventb.core.prHypAction name="REWRITE4" org.eventb.core.prHidden="p76" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p77"/>
+                                        <org.eventb.core.prHypAction name="REWRITE5" org.eventb.core.prHidden="p78" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p79"/>
+                                        <org.eventb.core.prHypAction name="HIDE6" org.eventb.core.prHyps="p80"/>
+                                        <org.eventb.core.prHypAction name="HIDE7" org.eventb.core.prHyps="p81"/>
+                                        <org.eventb.core.prHypAction name="HIDE8" org.eventb.core.prHyps="p82"/>
+                                        <org.eventb.core.prHypAction name="REWRITE9" org.eventb.core.prHidden="p62" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p83"/>
+                                        <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+                                            <org.eventb.core.prAnte name="'">
+                                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p77" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p84"/>
+                                                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p79" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p85"/>
+                                                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p83" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p86"/>
+                                            </org.eventb.core.prAnte>
+                                        </org.eventb.core.prRule>
+                                    </org.eventb.core.prAnte>
+                                </org.eventb.core.prRule>
+                            </org.eventb.core.prAnte>
+                        </org.eventb.core.prRule>
+                    </org.eventb.core.prAnte>
+                    <org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+                </org.eventb.core.prRule>
+            </org.eventb.core.prAnte>
+            <org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+        </org.eventb.core.prRule>
+        <org.eventb.core.prIdent name="Route_Cel" org.eventb.core.type="ℙ(ROUTE)"/>
+        <org.eventb.core.prIdent name="r" org.eventb.core.type="ROUTE"/>
+        <org.eventb.core.prPred name="p18" org.eventb.core.predicate="¬P12=P22">
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p62" org.eventb.core.predicate="∀p⦂PATH·p∈PATH⇒¬NullPath∈PathConflict[{p}]">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p59" org.eventb.core.predicate="¬P24=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p71" org.eventb.core.predicate="¬r∈Route_Cel"/>
+        <org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬P11=P13">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p33" org.eventb.core.predicate="¬P21=P22">
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p86" org.eventb.core.predicate="∀p⦂PATH·¬NullPath∈PathConflict[{p}]">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p83" org.eventb.core.predicate="∀p⦂PATH·⊤⇒¬NullPath∈PathConflict[{p}]">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬P11=P21">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p84" org.eventb.core.predicate="∀p⦂PATH,p1⦂PATH,p2⦂PATH·p2∈PathSub[{p1}]∧p∈PathConflict[{p2}]⇒p∈PathConflict[{p1}]">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+            <org.eventb.core.prIdent name="PathSub" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p25" org.eventb.core.predicate="¬P13=P21">
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p49" org.eventb.core.predicate="¬P23=P25">
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p23" org.eventb.core.predicate="¬P12=P25">
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p38" org.eventb.core.predicate="¬P21=P25">
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p53" org.eventb.core.predicate="¬P14=P25">
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p13" org.eventb.core.predicate="¬P11=P24">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p42" org.eventb.core.predicate="¬P22=P15">
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p55" org.eventb.core.predicate="¬P15=P24">
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p68" org.eventb.core.predicate="∀r⦂ROUTE·r∈Route_Occ⇒r∈dom(Route2Path)">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="Route2Path" org.eventb.core.type="ℙ(ROUTE×PATH)"/>
+            <org.eventb.core.prIdent name="Route_Occ" org.eventb.core.type="ℙ(ROUTE)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p48" org.eventb.core.predicate="¬P23=P24">
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p21" org.eventb.core.predicate="¬P12=P15">
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p76" org.eventb.core.predicate="∀p⦂PATH,p1⦂PATH·p∈PATH⇒(∀p2⦂PATH·p2∈PathSub[{p1}]∧p∈PathConflict[{p2}]⇒p∈PathConflict[{p1}])">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+            <org.eventb.core.prIdent name="PathSub" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p78" org.eventb.core.predicate="∀p⦂PATH·p∈PATH⇒finite(PathSub[{p}])">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathSub" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p72" org.eventb.core.predicate="PathConflict∈PATH ↔ PATH">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p30" org.eventb.core.predicate="¬P13=P24">
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p37" org.eventb.core.predicate="¬P21=P24">
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p51" org.eventb.core.predicate="¬P14=P15">
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p70" org.eventb.core.predicate="¬r∈Route_Req">
+            <org.eventb.core.prIdent name="Route_Req" org.eventb.core.type="ℙ(ROUTE)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p64" org.eventb.core.predicate="PathConflict={P12 ↦ P22,P22 ↦ P12,P12 ↦ P23,P23 ↦ P12,P22 ↦ P13,P13 ↦ P22,P21 ↦ P13,P13 ↦ P21,P23 ↦ P13,P13 ↦ P23,P11 ↦ P13,P13 ↦ P11,P12 ↦ P11,P11 ↦ P12,P12 ↦ P13,P13 ↦ P12,P21 ↦ P22,P21 ↦ P23,P22 ↦ P23,P22 ↦ P21,P23 ↦ P21,P23 ↦ P22,P14 ↦ P21,P14 ↦ P22,P14 ↦ P23,P14 ↦ P15,P14 ↦ P13,P14 ↦ P14,P21 ↦ P14,P22 ↦ P14,P23 ↦ P14,P15 ↦ P14,P13 ↦ P14,P15 ↦ P13,P15 ↦ P12,P15 ↦ P25,P15 ↦ P23,P15 ↦ P22,P15 ↦ P21,P15 ↦ P15,P13 ↦ P15,P12 ↦ P15,P25 ↦ P15,P23 ↦ P15,P22 ↦ P15,P21 ↦ P15,P24 ↦ P25,P24 ↦ P23,P24 ↦ P24,P23 ↦ P24,P25 ↦ P24,P25 ↦ P22,P25 ↦ P23,P25 ↦ P25,P23 ↦ P25,P22 ↦ P25,P25 ↦ P13,P13 ↦ P25,P25 ↦ P12,P12 ↦ P25,P11 ↦ P11,P12 ↦ P12,P13 ↦ P13,P21 ↦ P21,P22 ↦ P22,P23 ↦ P23}">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p65" org.eventb.core.predicate="∀r1⦂ROUTE,r2⦂ROUTE·r1≠r2∧r1∈dom(Route2Path)∧r2∈dom(Route2Path)⇒Route2Path(r2)∉PathConflict∼[Route2Path[{r1}]]">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+            <org.eventb.core.prIdent name="Route2Path" org.eventb.core.type="ℙ(ROUTE×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p19" org.eventb.core.predicate="¬P12=P23">
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p46" org.eventb.core.predicate="¬P23=P14">
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p67" org.eventb.core.predicate="∀r⦂ROUTE·r∈Route_Occ⇒Route2Path[{r}]≠(∅ ⦂ ℙ(PATH))">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="Route2Path" org.eventb.core.type="ℙ(ROUTE×PATH)"/>
+            <org.eventb.core.prIdent name="Route_Occ" org.eventb.core.type="ℙ(ROUTE)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p15" org.eventb.core.predicate="¬P11=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬P11=P14">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p40" org.eventb.core.predicate="¬P22=P23">
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p32" org.eventb.core.predicate="¬P13=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p74" org.eventb.core.predicate="PathSub∈PATH ↔ PATH">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathSub" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p28" org.eventb.core.predicate="¬P13=P14">
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p50" org.eventb.core.predicate="¬P23=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p57" org.eventb.core.predicate="¬P15=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p35" org.eventb.core.predicate="¬P21=P14">
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p2" org.eventb.core.predicate="ROUTE={R1,R2}">
+            <org.eventb.core.prIdent name="R1" org.eventb.core.type="ROUTE"/>
+            <org.eventb.core.prIdent name="R2" org.eventb.core.type="ROUTE"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p26" org.eventb.core.predicate="¬P13=P22">
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p60" org.eventb.core.predicate="¬P25=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p80" org.eventb.core.predicate="Route_Req⊆ROUTE">
+            <org.eventb.core.prIdent name="Route_Req" org.eventb.core.type="ℙ(ROUTE)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p39" org.eventb.core.predicate="¬P21=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p16" org.eventb.core.predicate="¬P12=P13">
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p82" org.eventb.core.predicate="Route_Occ⊆ROUTE">
+            <org.eventb.core.prIdent name="Route_Occ" org.eventb.core.type="ℙ(ROUTE)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p9" org.eventb.core.predicate="¬P11=P22">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p69" org.eventb.core.predicate="r∉Route_Req">
+            <org.eventb.core.prIdent name="Route_Req" org.eventb.core.type="ℙ(ROUTE)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p66" org.eventb.core.predicate="∀r1⦂ROUTE,r2⦂ROUTE·¬r1=r2∧r1∈dom(Route2Path)∧r2∈dom(Route2Path)⇒¬Route2Path(r2)∈PathConflict∼[Route2Path[{r1}]]">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+            <org.eventb.core.prIdent name="Route2Path" org.eventb.core.type="ℙ(ROUTE×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p73" org.eventb.core.predicate="InitPath⊆PATH">
+            <org.eventb.core.prIdent name="InitPath" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p5" org.eventb.core.predicate="PATH={P11,P12,P13,P21,P22,P23,P14,P15,P24,P25,NullPath}">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p17" org.eventb.core.predicate="¬P12=P21">
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p56" org.eventb.core.predicate="¬P15=P25">
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p14" org.eventb.core.predicate="¬P11=P25">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p6" org.eventb.core.predicate="¬P11=P12">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="r∉Route_Cel"/>
+        <org.eventb.core.prPred name="p58" org.eventb.core.predicate="¬P24=P25">
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p44" org.eventb.core.predicate="¬P22=P25">
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p31" org.eventb.core.predicate="¬P13=P25">
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p79" org.eventb.core.predicate="∀p⦂PATH·⊤⇒finite(PathSub[{p}])">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathSub" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p22" org.eventb.core.predicate="¬P12=P24">
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p47" org.eventb.core.predicate="¬P23=P15">
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p81" org.eventb.core.predicate="Route_Cel⊆ROUTE"/>
+        <org.eventb.core.prPred name="p85" org.eventb.core.predicate="∀p⦂PATH·finite(PathSub[{p}])">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathSub" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p12" org.eventb.core.predicate="¬P11=P15">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p43" org.eventb.core.predicate="¬P22=P24">
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬R1=R2">
+            <org.eventb.core.prIdent name="R1" org.eventb.core.type="ROUTE"/>
+            <org.eventb.core.prIdent name="R2" org.eventb.core.type="ROUTE"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p29" org.eventb.core.predicate="¬P13=P15">
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p36" org.eventb.core.predicate="¬P21=P15">
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p52" org.eventb.core.predicate="¬P14=P24">
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p77" org.eventb.core.predicate="∀p⦂PATH,p1⦂PATH·⊤⇒(∀p2⦂PATH·p2∈PathSub[{p1}]∧p∈PathConflict[{p2}]⇒p∈PathConflict[{p1}])">
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+            <org.eventb.core.prIdent name="PathSub" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p27" org.eventb.core.predicate="¬P13=P23">
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p75" org.eventb.core.predicate="NullPath∈PATH">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p4" org.eventb.core.predicate="partition(PATH,{P11},{P12},{P13},{P21},{P22},{P23},{P14},{P15},{P24},{P25},{NullPath})">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p61" org.eventb.core.predicate="∀p⦂PATH·p∈PATH⇒NullPath∉PathConflict[{p}]">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬P11=P23">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p24" org.eventb.core.predicate="¬P12=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(ROUTE,{R1},{R2})">
+            <org.eventb.core.prIdent name="R1" org.eventb.core.type="ROUTE"/>
+            <org.eventb.core.prIdent name="R2" org.eventb.core.type="ROUTE"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p54" org.eventb.core.predicate="¬P14=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p20" org.eventb.core.predicate="¬P12=P14">
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p63" org.eventb.core.predicate="PathConflict={P12 ↦ P22,P22 ↦ P12,P12 ↦ P23,P23 ↦ P12,P22 ↦ P13,P13 ↦ P22,P21 ↦ P13,P13 ↦ P21,P23 ↦ P13,P13 ↦ P23,P11 ↦ P13,P13 ↦ P11,P12 ↦ P11,P11 ↦ P12,P12 ↦ P13,P13 ↦ P12,P21 ↦ P22,P21 ↦ P23,P22 ↦ P23,P22 ↦ P21,P23 ↦ P21,P23 ↦ P22,P14 ↦ P21,P14 ↦ P22,P14 ↦ P23,P14 ↦ P15,P14 ↦ P13,P14 ↦ P14,P21 ↦ P14,P22 ↦ P14,P23 ↦ P14,P15 ↦ P14,P13 ↦ P14,P15 ↦ P13,P15 ↦ P12,P15 ↦ P25,P15 ↦ P23,P15 ↦ P22,P15 ↦ P21,P15 ↦ P15,P13 ↦ P15,P12 ↦ P15,P25 ↦ P15,P23 ↦ P15,P22 ↦ P15,P21 ↦ P15,P24 ↦ P25,P24 ↦ P23,P24 ↦ P24,P23 ↦ P24,P25 ↦ P24,P25 ↦ P22,P25 ↦ P23,P25 ↦ P25,P23 ↦ P25,P22 ↦ P25,P25 ↦ P13,P13 ↦ P25,P25 ↦ P12,P12 ↦ P25,P11 ↦ P11,P12 ↦ P12,P13 ↦ P13,P14 ↦ P14,P15 ↦ P15,P21 ↦ P21,P22 ↦ P22,P23 ↦ P23,P24 ↦ P24,P25 ↦ P25}">
+            <org.eventb.core.prIdent name="P11" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P12" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P13" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P15" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P24" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P25" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+            <org.eventb.core.prIdent name="PathConflict" org.eventb.core.type="ℙ(PATH×PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p41" org.eventb.core.predicate="¬P22=P14">
+            <org.eventb.core.prIdent name="P14" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p45" org.eventb.core.predicate="¬P22=NullPath">
+            <org.eventb.core.prIdent name="NullPath" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P22" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p34" org.eventb.core.predicate="¬P21=P23">
+            <org.eventb.core.prIdent name="P21" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="P23" org.eventb.core.type="PATH"/>
+            <org.eventb.core.prIdent name="PATH" org.eventb.core.type="ℙ(PATH)"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+    </org.eventb.core.prProof>
+</org.eventb.core.prFile>
